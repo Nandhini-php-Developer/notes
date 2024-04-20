@@ -1,6 +1,6 @@
 import "./HeroImgStyle.css"
-import introImg from "../assets/intro-bg2.jpg";
-
+// import introImg from "../assets/intro-bg2.jpg";
+import banner from "../assets/24033583.jpg"
 import React from 'react'
 import { Link } from "react-router-dom";
 
@@ -9,7 +9,7 @@ const HeroImg = () => {
   return (
     <div className="hero">
         <div className="mask">
-            <img className="intro-image" src={introImg}/>
+            <img className="intro-image" src={banner} alt="true"/>
         </div>
         <div className="content">
             <p>This is Test</p>

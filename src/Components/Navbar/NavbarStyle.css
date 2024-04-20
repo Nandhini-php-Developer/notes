@@ -20,7 +20,7 @@ ul.nav-menus li a {
     z-index: 10;
 }
 .header-bg{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(13 13 13);
     transition: 0.2s;
 }
 .respon-arrow{

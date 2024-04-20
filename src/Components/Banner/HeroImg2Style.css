@@ -12,15 +12,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    opacity: 0.7;
+    /* background-color: black;
+    opacity: 0.7; */
 }
+
 .header{
     z-index: 9999;
 }
 .hero-img::before{
     content: "";
-    background: url("https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?t=st=1713427633~exp=1713431233~hmac=ec5b8242854bddf91b99017c24f9573ced76599ededf5de964161498af8b7a55&w=1060");
+    background: url("https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=1060&t=st=1713618788~exp=1713619388~hmac=b17d23f55707ad0b4920dccd0bb35f88a8484e3555e4d283d31cc1f1b5283845");
     background-size: cover;
     background-position: center top;
     height: 100%;
@@ -33,6 +34,8 @@
 }
 .headings h1 {
     font-size: 2.5rem;
+    color: #b22b70;
+    margin: 10px;
 }
 
 .headings p {

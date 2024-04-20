@@ -16,11 +16,12 @@ form input, form textarea{
     background-color: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.1);
     color: #fff;
+    margin-top: 1rem;
 }
 
 .form h2 {
     font-weight: bolder;
-    color: #b22b70;
+    color: #03A9F4;
     font-size: 30px;
     text-align: center;
     margin-top: 20px;
